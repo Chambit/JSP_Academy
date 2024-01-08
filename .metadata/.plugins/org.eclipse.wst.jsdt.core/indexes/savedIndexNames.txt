@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/Users/chambitlee/JAVA/course/jsp/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+394659380.index
+2318782830.index
+311309660.index
+277950626.index
+3074333903.index
+1954911850.index

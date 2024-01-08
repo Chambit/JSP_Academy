@@ -1,0 +1,21 @@
+<%@page import="com.example.bean.MemberVO_Quiz"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	MemberVO_Quiz vo = (MemberVO_Quiz)request.getAttribute("vo");
+	
+	int result = (Integer.parseInt(vo.getHangle()) + Integer.parseInt(vo.getMath()))/2;
+	int result2 = Integer.parseInt(vo.getHangle()) + Integer.parseInt(vo.getMath());
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%=vo.getName() %><br>
+	평균:result<br>
+	총점:result2<br>
+</body>
+</html>
